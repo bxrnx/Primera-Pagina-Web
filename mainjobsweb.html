@@ -8,79 +8,57 @@
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
-
-    <div class = "head">
-
-		<div class = "logo">
-			<a href="#">Meléndez</a>
-		</div>
-    
-        <nav class = "navbar">
+    <div class="head">
+        <div class="logo">
+            <a href="#">Meléndez</a>
+        </div>
+        <nav class="navbar">
             <a href="#logo">Inicio</a>
             <a href="#proyecto">Proyectos</a>
             <a href="#contacto">Contacto</a>
             <a href="https://youtu.be/dQw4w9WgXcQ?si=AOMpoejzJNKKOxvq" target="_blank">Más Información</a>
         </nav>
-
     </div>
-
-	<header class = "content header">
-		<h2 class = "tittle" id="logo">Web dev</h2>
-		<p>
-
-		</p>
-
-		<div class = "btn-home">
-			<a href="https://www.linkedin.com/in/bernardo-mel%C3%A9ndez-1530411a4/" class = "btn" target="_blank">LINKEDIN</a>
-			<a href="https://github.com/bxrnx" class = "btn" target="_blank">GITHUB</a>
-		</div>
-	</header>
-
-	<section class = "content sau">
-
-		<h2 class = "tittle" id="proyecto">Proyectos</h2>
-		<p>
-			Proyectos realizados en la escuela 42 MÁLAGA Fundación telefónica
-		</p>
-
-		<div class = "box-container">
-
-			<div class = "box">
-				<i class="fab fa-angular"></i>
-				<h3>PrintF</h3>
-				<p>Recreación de la función PrintF desde cero</p>
-			</div>
-			<div class = "box">
-				<i class="fab fa-apple"></i>
-				<h3>MiniTalk</h3>
-				<p>Conversación entre dos terminales, mediante señales, Cliente - Servidor</p>
-			</div>
-			<div class = "box">
-				<i class="fab fa-android"></i>
-				<h3>GetNextLine</h3>
-				<p>creación de una función que permite leer una línea de un archivo descriptor de una sola vez.</p>
-			</div>
-
-		</div>
-
-	</section>
-
-	<section class = "content price">
-
-		<article class = "contain">
-			<p>
-				"Comprar Barato, Pagar Cuatro Veces"
-			</p>
-
-			<a href="#" class = "btn">Saber precio</a>
-
-		</article>
-
-	</section>
-
-	<section class="content contact">
-		<h2 class = "title" id="contacto">Contacto</h2>
-		<p>bernimlga@gmail.com<br><br> 952 27 58 92</p>
-	</section>
+    <header class="content header">
+        <h2 class="tittle" id="logo">Web dev</h2>
+        <div class="btn-home">
+            <a href="https://www.linkedin.com/in/bernardo-mel%C3%A9ndez-1530411a4/" class="btn" target="_blank">LINKEDIN</a>
+            <a href="https://github.com/bxrnx" class="btn" target="_blank">GITHUB</a>
+        </div>
+    </header>
+    <section class="content sau">
+        <h2 class="tittle" id="proyecto">Proyectos</h2>
+        <p>Proyectos realizados en la escuela 42 MÁLAGA Fundación telefónica</p>
+        <div class="box-container">
+            <div class="box">
+                <i class="fab fa-angular"></i>
+                <h3>PrintF</h3>
+                <p>Recreación de la función PrintF desde cero</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-apple"></i>
+                <h3>MiniTalk</h3>
+                <p>Conversación entre dos terminales, mediante señales, Cliente - Servidor</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-android"></i>
+                <h3>GetNextLine</h3>
+                <p>Creación de una función que permite leer una línea de un archivo descriptor de una sola vez.</p>
+            </div>
+        </div>
+    </section>
+    <section class="content price">
+        <article class="contain">
+            <p>"Comprar Barato, Pagar Cuatro Veces"</p>
+            <a href="#" class="btn">Saber precio</a>
+        </article>
+    </section>
+    <section class="content contact">
+        <h2 class="title" id="contacto">Contacto</h2>
+        <p>bernimlga@gmail.com<br><br> 952 27 58 92</p>
+		<button id = "showQuoteButton" class = "btn">Mostrar Cita Motivacional</button>
+		<div id = "quoteContainer" class = "quote-container"></div>
+    </section>
+    <script src="animations.js"></script>
 </body>
 </html>
